@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --background: #eff2f5;
+  --line-gray: #dde5ee;
+  --gray: #666;
+  --green: #00bd9c;
+  --green-dark: #00bd8c;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--background);
+}
+
+#logo {
+  width: 420px;
+  height: 280px;
+  margin: auto;
+}
+
+#logo img {
+  width: 380px;
+  height: 110px;
+  margin: 65px auto;
+}
+
+#caixa_login {
+  background: var(--line-gray);
+  width: 430px;
+  height: 300px;
+  margin: -60px auto;
+  border: 1px solid var(--line-gray);
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#caixa_login table {
+  font: 15px Roboto, sans-serif;
+  color: var(--gray);
+  margin: -2px 12px 12px 12px;
+}
+
+#caixa_login h1 {
+  font: 15px Roboto, sans-serif;
+  color: var(--gray);
+  margin: 20px 0 10 0;
+}
+
+#caixa_login .text {
+  font: 15px Roboto, sans-serif;
+  color: var(--green);
+  height: 40px;
+  padding: 23px;
+  width: 400px;
+  border: 1px solid var(--line-gray);
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#caixa_login .input {
+  font: 15px Roboto, sans-serif;
+  color: var(--white);
+  height: 60px;
+  padding: 5px;
+  background: var(--green);
+  cursor: pointer;
+  width: 400px;
+  margin: 20px 0 0 0;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#caixa_login .input:hover {
+  background: var(--green-dark);
+}

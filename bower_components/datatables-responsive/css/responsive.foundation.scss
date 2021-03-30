@@ -1,0 +1,10 @@
+
+$open-button-background: #02ad8f !default;
+
+@import 'responsive.dataTables.scss';
+
+table.dataTable > tbody > tr.child {
+	ul {
+		font-size: 1em;
+	}
+}
